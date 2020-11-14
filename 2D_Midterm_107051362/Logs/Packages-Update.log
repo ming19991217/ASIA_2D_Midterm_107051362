@@ -47,3 +47,21 @@ The following packages were 已更新:
   com.unity.2d.animation 從版本 3.2.4 到 3.2.5
   com.unity.2d.psdimporter 從版本 2.1.5 到 2.1.6
   com.unity.2d.spriteshape 從版本 3.0.13 到 3.0.14
+
+=== Sat Nov 14 16:32:05 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were 已增加:
+  com.unity.ide.visualstudio@2.0.3
+The following packages were 已更新:
+  com.unity.2d.animation 從版本 3.2.5 到 4.2.6
+  com.unity.2d.pixel-perfect 從版本 2.0.4 到 3.0.2
+  com.unity.2d.psdimporter 從版本 2.1.6 到 3.1.6
+  com.unity.2d.spriteshape 從版本 3.0.14 到 4.1.4
+  com.unity.cinemachine 從版本 2.3.4 到 2.5.0
+  com.unity.collab-proxy 從版本 1.2.16 到 1.3.9
+  com.unity.ide.rider 從版本 1.1.4 到 1.2.1
+  com.unity.ide.vscode 從版本 1.2.2 到 1.2.3
+  com.unity.textmeshpro 從版本 2.1.1 到 3.0.1

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Play
   - Quit
+  - Heart
+  - Gameover
   layers:
   - Default
   - TransparentFX

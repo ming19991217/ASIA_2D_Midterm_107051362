@@ -20,12 +20,14 @@ public class Player : MonoBehaviour
     bool jumpPressed;
 
     float horizontalMove;
+    public GameManager gm;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
     }
 
     void Update()
@@ -92,11 +94,22 @@ public class Player : MonoBehaviour
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
-            else if (other.tag == "Quit")
-                if (Input.GetKey(KeyCode.E))
-                {
-                    Application.Quit();
-                }
+        if (other.tag == "Quit")
+            if (Input.GetKey(KeyCode.E))
+            {
+                Application.Quit();
+            }
+
+        if (other.tag == "Heart")
+        {
+            gm.getHeart(other.gameObject);
+        }
+
+        if (other.tag == "Gameover")
+        {
+            gm.Gameover();
+
+        }
     }
 
 }
